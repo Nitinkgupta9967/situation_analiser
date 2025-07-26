@@ -1,0 +1,42 @@
+# Legal Situation Analyzer - Requirements
+
+# Core Dependencies
+streamlit>=1.28.0
+torch>=1.13.0
+transformers>=4.21.0
+speechrecognition>=3.10.0
+pyttsx3>=2.90
+googletrans==4.0.0rc1
+sqlite3  # Built-in with Python
+
+# Audio Processing
+pyaudio>=0.2.11
+sounddevice>=0.4.6
+librosa>=0.10.0
+
+# Additional ML Libraries
+scikit-learn>=1.1.0
+numpy>=1.21.0
+pandas>=1.5.0
+nltk>=3.8
+
+# Web and API
+requests>=2.28.0
+beautifulsoup4>=4.11.0
+
+# Visualization
+plotly>=5.10.0
+matplotlib>=3.5.0
+
+# Language Processing
+langdetect>=1.0.9
+polyglot>=16.7.4  # For advanced multilingual support
+
+# Document Processing
+python-docx>=0.8.11
+PyPDF2>=3.0.0
+
+# Development and Testing
+pytest>=7.1.0
+black>=22.0.0
+flake8>=5.0.0
